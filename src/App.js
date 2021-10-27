@@ -2,7 +2,7 @@ import React,{ useState } from "react";
 import Navbar from './custom components/navbar'
 import NewsContainer from './custom components/newsContainer'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
